@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/favorite_link"
+    tools:context=".FavoriteActivity">
+
+    <TextView
+        android:id="@+id/fav_text_title"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="TextView"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/fav_text_description"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:text="TextView"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/fav_text_date"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:text="TextView"
+        android:textSize="16dp" />
+    <TextView
+        android:id="@+id/fav_text_link"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/fav_btn_link"
+            android:layout_width="233dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".33"
+            android:text="@string/link_btn" />
+
+        <Button
+            android:id="@+id/fav_btn_del"
+            android:layout_width="61dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/ic_favorite_full" />
+
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/progress_ba"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notes:"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/fav_edit_notes"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:textSize="24dp"
+        android:ems="10"
+         />
+
+</LinearLayout>

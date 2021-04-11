@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">BBCNews</string>
+    <string name="link_btn">Article</string>
+    <string name="help_btn">Help</string>
+    <string name="alert_dialog">Browse through all of the latest BBCNews stories. Select an article
+        to find out more information along with a link to the full article. If you select the star
+        icon, the article will be added to your favorites.</string>
+    <string name="title_activity_bottom_nav">BottomNav</string>
+    <string name="title_home">Home</string>
+    <string name="search">Search</string>
+    <string name="favorites">Favorites</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="toast">Added To Favorites!</string>
+    <string name="else_toast">Something went wrong!</string>
+    <string name="nothing_toast">Nothing in favorites</string>
+    <string name="del_toast">Removed From Favorites!</string>
+    <string name="help_text">Hi, how can we help?</string>
+    <string name="instructions">Instructions: </string>
+    <string name="how_to">BBC News reader uses the RSS form BBC www.bbc.com to display all of the
+    latest news stories.</string>
+    <string name="how_to2">The Home page displays all of the current news articles. Clicking on
+    one will bring you to a new page giving you more information about the article. On that page you
+    will find a link to the full article on BBC News, a favorite button the shape of a heart, and a
+    area to enter notes.</string>
+    <string name="how_to3">Both the article and notes you write will be saved  to your favorites
+    list once you click on the heart. You can of courser remove it from your favorites by clicking on
+    the heart in you favorites.</string>
+
+
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BBCNews</string>help_btn
+    <string name="link_btn">Aller à l\'article</string>
+    <string name="help_btn">Aider</string>
+    <string name="alert_dialog">Parcourez toutes les dernières histoires de BBCNews. Sélectionnez un
+        article pour en savoir plus avec un lien vers l\'article complet. Si vous sélectionnez
+        l\'icône étoile, l\'article sera ajouté à vos favoris.
+</string>
+    <string name="title_activity_bottom_nav">BottomNav</string>
+    <string name="title_home">Accueil</string>
+    <string name="search">Chercher</string>
+    <string name="favorites">Favoris</string>
+    <string name="navigation_drawer_open">Ouvrir le tiroir de navigation</string>
+    <string name="navigation_drawer_close">Fermer le tiroir de navigation</string>
+    <string name="toast">Ajouté aux favoris!</string>
+    <string name="else_toast">Un problème est survenu!</string>
+    <string name="nothing_toast">Rien dans les favoris</string>
+    <string name="del_toast">Retiré des favoris!</string>
+    <string name="help_text">Salut, comment pouvons-nous vous aider?</string>
+    <string name="instructions">Instructions: </string>
+    <string name="how_to">Le lecteur BBC News utilise le formulaire RSS BBC www.bbc.com pour afficher tous les
+    dernières nouvelles.
+    </string>
+    <string name="how_to2">BBC News reader uses the RSS form BBC www.bbc.com to display all of the
+    latest news stories.</string>
+    <string name="how_to3">- L\'article et les notes que vous écrivez seront enregistrés dans vos favoris
+    liste une fois que vous cliquez sur le cœur. Vous pouvez bien sûr le supprimer de vos favoris en cliquant sur
+    le cœur dans vos favoris.</string>
+
+</resources>
